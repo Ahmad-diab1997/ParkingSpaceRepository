@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "d32b53c7-8712-4f0d-aca4-7b9193ec4237": {
+      "ProjectGuid": "d32b53c7-8712-4f0d-aca4-7b9193ec4237",
+      "DisplayName": "ParkingSpace.WebApi",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
