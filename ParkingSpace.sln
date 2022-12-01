@@ -3,7 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParkingSpace.WebApi", "ParkingSpace.WebApi\ParkingSpace.WebApi.csproj", "{D32B53C7-8712-4F0D-ACA4-7B9193EC4237}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ParkingSpace.WebApi", "ParkingSpace.WebApi\ParkingSpace.WebApi.csproj", "{D32B53C7-8712-4F0D-ACA4-7B9193EC4237}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParkingSpace.Business", "ParkingSpace.Business\ParkingSpace.Business.csproj", "{36776015-8BD1-4DA3-955F-EC4BACED1636}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParkingSpace.Store", "ParkingSpace.Store\ParkingSpace.Store.csproj", "{1D3AAF87-3A51-4A12-8DB9-4D8D215CCE45}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParkingSpace.Abstractions", "ParkingSpace.Abstractions\ParkingSpace.Abstractions.csproj", "{BA5B0940-6B3E-4113-935F-6A4AED54FF87}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "ParkingSpace.Database", "ParkingSpace.Database\ParkingSpace.Database.sqlproj", "{F23E5F85-65A7-42B6-A041-8912B7E1363D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +23,24 @@ Global
 		{D32B53C7-8712-4F0D-ACA4-7B9193EC4237}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D32B53C7-8712-4F0D-ACA4-7B9193EC4237}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D32B53C7-8712-4F0D-ACA4-7B9193EC4237}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36776015-8BD1-4DA3-955F-EC4BACED1636}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36776015-8BD1-4DA3-955F-EC4BACED1636}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36776015-8BD1-4DA3-955F-EC4BACED1636}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36776015-8BD1-4DA3-955F-EC4BACED1636}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D3AAF87-3A51-4A12-8DB9-4D8D215CCE45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D3AAF87-3A51-4A12-8DB9-4D8D215CCE45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D3AAF87-3A51-4A12-8DB9-4D8D215CCE45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D3AAF87-3A51-4A12-8DB9-4D8D215CCE45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA5B0940-6B3E-4113-935F-6A4AED54FF87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA5B0940-6B3E-4113-935F-6A4AED54FF87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA5B0940-6B3E-4113-935F-6A4AED54FF87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA5B0940-6B3E-4113-935F-6A4AED54FF87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F23E5F85-65A7-42B6-A041-8912B7E1363D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F23E5F85-65A7-42B6-A041-8912B7E1363D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F23E5F85-65A7-42B6-A041-8912B7E1363D}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{F23E5F85-65A7-42B6-A041-8912B7E1363D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F23E5F85-65A7-42B6-A041-8912B7E1363D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F23E5F85-65A7-42B6-A041-8912B7E1363D}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
