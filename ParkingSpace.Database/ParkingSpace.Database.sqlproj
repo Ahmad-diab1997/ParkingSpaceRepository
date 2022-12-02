@@ -59,4 +59,26 @@
     <Folder Include="Tables" />
     <Folder Include="Stored Procedures" />
   </ItemGroup>
+  <ItemGroup>
+    <Build Include="Tables\tbl_car.sql" />
+    <Build Include="Tables\tbl_parking.sql" />
+    <Build Include="Tables\tbl_space.sql" />
+    <Build Include="Tables\tbl_user.sql" />
+    <Build Include="Stored Procedures\AddParking.sql" />
+    <Build Include="Stored Procedures\RemoveParking.sql" />
+    <Build Include="Stored Procedures\UpdateParking.sql" />
+    <Build Include="Stored Procedures\AddSpace.sql" />
+    <Build Include="Stored Procedures\UpdateSpace.sql" />
+    <Build Include="Stored Procedures\RemoveSpace.sql" />
+    <Build Include="Tables\Park.sql" />
+    <Build Include="Stored Procedures\AddCar.sql" />
+    <Build Include="Stored Procedures\AddUser.sql" />
+    <Build Include="Stored Procedures\RemoveCar.sql" />
+    <Build Include="Stored Procedures\RemoveUser.sql" />
+    <Build Include="Stored Procedures\UpdateCar.sql" />
+    <Build Include="Stored Procedures\UpdateUser.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <RefactorLog Include="ParkingSpace.Database.refactorlog" />
+  </ItemGroup>
 </Project>

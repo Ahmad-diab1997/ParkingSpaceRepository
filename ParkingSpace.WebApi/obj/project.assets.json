@@ -16,10 +16,14 @@
       "Microsoft.OpenApi/1.2.3": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/Microsoft.OpenApi.dll": {}
+          "lib/netstandard2.0/Microsoft.OpenApi.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/Microsoft.OpenApi.dll": {}
+          "lib/netstandard2.0/Microsoft.OpenApi.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       },
       "Swashbuckle.AspNetCore/6.2.3": {
@@ -40,10 +44,14 @@
           "Microsoft.OpenApi": "1.2.3"
         },
         "compile": {
-          "lib/net6.0/Swashbuckle.AspNetCore.Swagger.dll": {}
+          "lib/net6.0/Swashbuckle.AspNetCore.Swagger.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "runtime": {
-          "lib/net6.0/Swashbuckle.AspNetCore.Swagger.dll": {}
+          "lib/net6.0/Swashbuckle.AspNetCore.Swagger.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
@@ -55,23 +63,41 @@
           "Swashbuckle.AspNetCore.Swagger": "6.2.3"
         },
         "compile": {
-          "lib/net6.0/Swashbuckle.AspNetCore.SwaggerGen.dll": {}
+          "lib/net6.0/Swashbuckle.AspNetCore.SwaggerGen.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "runtime": {
-          "lib/net6.0/Swashbuckle.AspNetCore.SwaggerGen.dll": {}
+          "lib/net6.0/Swashbuckle.AspNetCore.SwaggerGen.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       },
       "Swashbuckle.AspNetCore.SwaggerUI/6.2.3": {
         "type": "package",
         "compile": {
-          "lib/net6.0/Swashbuckle.AspNetCore.SwaggerUI.dll": {}
+          "lib/net6.0/Swashbuckle.AspNetCore.SwaggerUI.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "runtime": {
-          "lib/net6.0/Swashbuckle.AspNetCore.SwaggerUI.dll": {}
+          "lib/net6.0/Swashbuckle.AspNetCore.SwaggerUI.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "ParkingSpace.Abstractions/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "compile": {
+          "bin/placeholder/ParkingSpace.Abstractions.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ParkingSpace.Abstractions.dll": {}
+        }
       }
     }
   },
@@ -200,31 +226,38 @@
         "swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
+    },
+    "ParkingSpace.Abstractions/1.0.0": {
+      "type": "project",
+      "path": "../ParkingSpace.Abstractions/ParkingSpace.Abstractions.csproj",
+      "msbuildProject": "../ParkingSpace.Abstractions/ParkingSpace.Abstractions.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "ParkingSpace.Abstractions >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.2.3"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\mzaiter\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\Ghadi\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mzaiter\\source\\repos\\Talentways\\ParkingSpaceRepository\\ParkingSpace.WebApi\\ParkingSpace.WebApi.csproj",
+      "projectUniqueName": "C:\\Users\\Ghadi\\Desktop\\ParkingSpaceRepository\\ParkingSpaceRepository\\ParkingSpace.WebApi\\ParkingSpace.WebApi.csproj",
       "projectName": "ParkingSpace.WebApi",
-      "projectPath": "C:\\Users\\mzaiter\\source\\repos\\Talentways\\ParkingSpaceRepository\\ParkingSpace.WebApi\\ParkingSpace.WebApi.csproj",
-      "packagesPath": "C:\\Users\\mzaiter\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mzaiter\\source\\repos\\Talentways\\ParkingSpaceRepository\\ParkingSpace.WebApi\\obj\\",
+      "projectPath": "C:\\Users\\Ghadi\\Desktop\\ParkingSpaceRepository\\ParkingSpaceRepository\\ParkingSpace.WebApi\\ParkingSpace.WebApi.csproj",
+      "packagesPath": "C:\\Users\\Ghadi\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Ghadi\\Desktop\\ParkingSpaceRepository\\ParkingSpaceRepository\\ParkingSpace.WebApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\mzaiter\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Ghadi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -232,14 +265,17 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://netways.pkgs.visualstudio.com/Connect/_packaging/Connect/nuget/v3/index.json": {},
-        "https://pkgs.dev.azure.com/netways/Diaspora/_packaging/Diaspora/nuget/v3/index.json": {}
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Ghadi\\Desktop\\ParkingSpaceRepository\\ParkingSpaceRepository\\ParkingSpace.Abstractions\\ParkingSpace.Abstractions.csproj": {
+              "projectPath": "C:\\Users\\Ghadi\\Desktop\\ParkingSpaceRepository\\ParkingSpaceRepository\\ParkingSpace.Abstractions\\ParkingSpace.Abstractions.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -263,7 +299,8 @@
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -275,7 +312,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

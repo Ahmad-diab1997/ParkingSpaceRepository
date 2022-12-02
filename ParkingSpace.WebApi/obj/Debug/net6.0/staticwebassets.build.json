@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "f24q6nofjpKKWrwUw1nyEI3IXMSS/lIfOJ59dI9wnF8=",
+  "Source": "ParkingSpace.WebApi",
+  "BasePath": "_content/ParkingSpace.WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

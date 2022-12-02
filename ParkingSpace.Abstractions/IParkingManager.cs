@@ -1,10 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace ParkingSpace.Abstractions
+﻿namespace ParkingSpace.Abstractions
 {
-    internal interface IParkingManager
+    using ParkingSpace.Abstractions.Models;
+    public interface IParkingManager
     {
+        public string AddParking(Parking parking);
+        public string UpdateParking(Parking parking);
+        public string DeleteParking(int parkingId);
     }
 }

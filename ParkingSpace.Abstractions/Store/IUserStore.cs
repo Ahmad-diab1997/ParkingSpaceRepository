@@ -1,10 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace ParkingSpace.Abstractions.Store
+﻿namespace ParkingSpace.Abstractions.Store
 {
-    internal interface IUserStore
+    using System;
+    using ParkingSpace.Abstractions.Models;
+    public interface IUserStore
     {
+        public string AddUser(User user);
+
+        public string UpdateUser(User user);
+
+        public string DeleteUser(Guid Id);
     }
 }

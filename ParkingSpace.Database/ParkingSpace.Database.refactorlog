@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="8d697223-0e7e-4e77-974d-d8b5c56a2bb0" ChangeDateTime="12/01/2022 20:09:56">
+    <Property Name="ElementName" Value="[dbo].[tbl_space].[width]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[tbl_space]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Width" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="3c71ecbc-9364-4f4f-b9a2-214732bdb562" ChangeDateTime="12/01/2022 22:57:43">
+    <Property Name="ElementName" Value="[dbo].[tbl_user].[Meney]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[tbl_user]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Money" />
+  </Operation>
+</Operations>

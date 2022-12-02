@@ -1,10 +1,48 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace ParkingSpace.Abstractions.Models
+﻿namespace ParkingSpace.Abstractions.Models
 {
-    internal class Car
+    using System;
+    public class Car
     {
+        public Guid Id
+        {
+
+            get;
+            set;
+        }
+
+        public int Model
+        {
+
+            get;
+            set;
+        }
+
+        public string Version
+        {
+
+            get;
+            set;
+        }
+
+        public string Color
+        {
+            get;
+            set;
+        }
+
+        public int Height
+        {
+
+            get;
+            set;
+        }
+
+        public int Width
+        {
+
+            get;
+            set;
+        }
+
     }
 }

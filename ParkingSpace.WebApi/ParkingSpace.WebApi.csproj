@@ -13,4 +13,8 @@
     <Folder Include="Models\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ParkingSpace.Abstractions\ParkingSpace.Abstractions.csproj" />
+  </ItemGroup>
+
 </Project>

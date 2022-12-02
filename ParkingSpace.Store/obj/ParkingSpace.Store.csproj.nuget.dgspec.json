@@ -1,23 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mzaiter\\source\\repos\\Talentways\\ParkingSpaceRepository\\ParkingSpace.Store\\ParkingSpace.Store.csproj": {}
+    "C:\\Users\\Ghadi\\Desktop\\ParkingSpaceRepository\\ParkingSpaceRepository\\ParkingSpace.Store\\ParkingSpace.Store.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mzaiter\\source\\repos\\Talentways\\ParkingSpaceRepository\\ParkingSpace.Abstractions\\ParkingSpace.Abstractions.csproj": {
+    "C:\\Users\\Ghadi\\Desktop\\ParkingSpaceRepository\\ParkingSpaceRepository\\ParkingSpace.Abstractions\\ParkingSpace.Abstractions.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mzaiter\\source\\repos\\Talentways\\ParkingSpaceRepository\\ParkingSpace.Abstractions\\ParkingSpace.Abstractions.csproj",
+        "projectUniqueName": "C:\\Users\\Ghadi\\Desktop\\ParkingSpaceRepository\\ParkingSpaceRepository\\ParkingSpace.Abstractions\\ParkingSpace.Abstractions.csproj",
         "projectName": "ParkingSpace.Abstractions",
-        "projectPath": "C:\\Users\\mzaiter\\source\\repos\\Talentways\\ParkingSpaceRepository\\ParkingSpace.Abstractions\\ParkingSpace.Abstractions.csproj",
-        "packagesPath": "C:\\Users\\mzaiter\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mzaiter\\source\\repos\\Talentways\\ParkingSpaceRepository\\ParkingSpace.Abstractions\\obj\\",
+        "projectPath": "C:\\Users\\Ghadi\\Desktop\\ParkingSpaceRepository\\ParkingSpaceRepository\\ParkingSpace.Abstractions\\ParkingSpace.Abstractions.csproj",
+        "packagesPath": "C:\\Users\\Ghadi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ghadi\\Desktop\\ParkingSpaceRepository\\ParkingSpaceRepository\\ParkingSpace.Abstractions\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\mzaiter\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Ghadi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -25,9 +26,8 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://netways.pkgs.visualstudio.com/Connect/_packaging/Connect/nuget/v3/index.json": {},
-          "https://pkgs.dev.azure.com/netways/Diaspora/_packaging/Diaspora/nuget/v3/index.json": {}
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netstandard2.1": {
@@ -50,7 +50,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -59,24 +60,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\mzaiter\\source\\repos\\Talentways\\ParkingSpaceRepository\\ParkingSpace.Store\\ParkingSpace.Store.csproj": {
+    "C:\\Users\\Ghadi\\Desktop\\ParkingSpaceRepository\\ParkingSpaceRepository\\ParkingSpace.Store\\ParkingSpace.Store.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mzaiter\\source\\repos\\Talentways\\ParkingSpaceRepository\\ParkingSpace.Store\\ParkingSpace.Store.csproj",
+        "projectUniqueName": "C:\\Users\\Ghadi\\Desktop\\ParkingSpaceRepository\\ParkingSpaceRepository\\ParkingSpace.Store\\ParkingSpace.Store.csproj",
         "projectName": "ParkingSpace.Store",
-        "projectPath": "C:\\Users\\mzaiter\\source\\repos\\Talentways\\ParkingSpaceRepository\\ParkingSpace.Store\\ParkingSpace.Store.csproj",
-        "packagesPath": "C:\\Users\\mzaiter\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mzaiter\\source\\repos\\Talentways\\ParkingSpaceRepository\\ParkingSpace.Store\\obj\\",
+        "projectPath": "C:\\Users\\Ghadi\\Desktop\\ParkingSpaceRepository\\ParkingSpaceRepository\\ParkingSpace.Store\\ParkingSpace.Store.csproj",
+        "packagesPath": "C:\\Users\\Ghadi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ghadi\\Desktop\\ParkingSpaceRepository\\ParkingSpaceRepository\\ParkingSpace.Store\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\mzaiter\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Ghadi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -84,16 +86,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://netways.pkgs.visualstudio.com/Connect/_packaging/Connect/nuget/v3/index.json": {},
-          "https://pkgs.dev.azure.com/netways/Diaspora/_packaging/Diaspora/nuget/v3/index.json": {}
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netstandard2.1": {
             "targetAlias": "netstandard2.1",
             "projectReferences": {
-              "C:\\Users\\mzaiter\\source\\repos\\Talentways\\ParkingSpaceRepository\\ParkingSpace.Abstractions\\ParkingSpace.Abstractions.csproj": {
-                "projectPath": "C:\\Users\\mzaiter\\source\\repos\\Talentways\\ParkingSpaceRepository\\ParkingSpace.Abstractions\\ParkingSpace.Abstractions.csproj"
+              "C:\\Users\\Ghadi\\Desktop\\ParkingSpaceRepository\\ParkingSpaceRepository\\ParkingSpace.Abstractions\\ParkingSpace.Abstractions.csproj": {
+                "projectPath": "C:\\Users\\Ghadi\\Desktop\\ParkingSpaceRepository\\ParkingSpaceRepository\\ParkingSpace.Abstractions\\ParkingSpace.Abstractions.csproj"
               }
             }
           }
@@ -107,13 +108,20 @@
       "frameworks": {
         "netstandard2.1": {
           "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.5, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -122,7 +130,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

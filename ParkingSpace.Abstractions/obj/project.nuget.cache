@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cytdiA2otQc3yANQTGh59aMywVws5+rPEMT/Er7pWqlBWmt960jwG2Qm31mQergaBtasUEGmerC5Br48vAEVDQ==",
+  "dgSpecHash": "Wzetew08AqlLukHM8Xyf8jGQ+KMXKinURXeXjMnJQiolJc33KRQVvps8Cwi6LxK4io1ixK81S65FnLxvktpX1Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mzaiter\\source\\repos\\Talentways\\ParkingSpaceRepository\\ParkingSpace.Abstractions\\ParkingSpace.Abstractions.csproj",
+  "projectFilePath": "C:\\Users\\Ghadi\\Desktop\\ParkingSpaceRepository\\ParkingSpaceRepository\\ParkingSpace.Abstractions\\ParkingSpace.Abstractions.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

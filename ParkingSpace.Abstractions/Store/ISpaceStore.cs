@@ -1,10 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace ParkingSpace.Abstractions
+﻿namespace ParkingSpace.Abstractions
 {
-    internal interface ISpaceStore
+    using ParkingSpace.Abstractions.Models;
+    public interface ISpaceStore
     {
+        public string AddSpace(Space space);
+        public string UpdateSpace(Space space);
+        public string DeleteSpace(int spaceId);
     }
 }
